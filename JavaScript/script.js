@@ -45,7 +45,7 @@ function textAnimate(){
     })(contentLength*increment+1); 
     function nextFrame(pos){
       for (let i=0; i<contentLength-stri; i++) {
-        //Random number
+       
         const num = Math.floor(randomLetters.length * Math.random());
         //Get random letter
         let letter = randomLetters.charAt(num);
